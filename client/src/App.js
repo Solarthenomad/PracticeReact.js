@@ -3,6 +3,7 @@ import './App.css';
 import ImportComponent from './R003_ImportComponent';
 import LifeCycleex from './R006_LifeCycleEx';
 import LifeCycleEx from './R007_LifeCycleEx';
+import LifeCycleEx8 from './R008_LifecycleEx'
 
 //App.js와 같은 폴더 경로에 위치한 App.css 임포트하기 방법 
 //만약 App.css가 App.js보다 한 단계 더 위의 상위 폴더에 위치한다면 ./../App.css를 해주어야 한다

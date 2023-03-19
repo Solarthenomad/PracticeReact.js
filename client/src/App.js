@@ -7,6 +7,8 @@ import LifeCycleEx8 from './R008_LifecycleEx';
 import Es6 from './R009_Es6';
 import SpreadOprator from './R0011_SpreadOperator';
 import Jquery from './R016_Jquery';
+import Props from './R017_Props';
+
 
 //App.js와 같은 폴더 경로에 위치한 App.css 임포트하기 방법 
 //만약 App.css가 App.js보다 한 단계 더 위의 상위 폴더에 위치한다면 ./../App.css를 해주어야 한다
@@ -22,6 +24,7 @@ function App() {
       <Es6/>
       <SpreadOprator/>
       <Jquery/>
+      <Props props_val = "This is Props"/>
       
     </div>
     //App.js에서 임포트한 component인 R006_LifecycleEx로 prop_value라는 변수를 전달한다.
@@ -30,3 +33,4 @@ function App() {
 }
 
 export default App;
+//

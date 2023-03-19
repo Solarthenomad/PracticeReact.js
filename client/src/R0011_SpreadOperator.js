@@ -42,3 +42,11 @@ class R0011_SpreadOperator extends Component {
 }
 
 export default R0011_SpreadOperator;
+
+//기존 ES5에서 배열 2개를 합치기 위해서는 배열 각각의 원소들을 인덱스로 가져와서 합쳐주거나,
+//var sumVarArr = [].concat(varArray1, varArray2); [].concat()함수 사용하여 합침 
+
+//ES6에서는 전개연산자(...)을 합치고자 하는 각각의 배열명 앞에 붙여  마침표 세개(...)를 배열명 앞에 붙여서 여러 개의 배열을 하나로 합침 
+// let sumLetArr = [...varArray1, ...varArray2];
+//const [sum1, sum2, ...remain] = sumLetArr;
+//

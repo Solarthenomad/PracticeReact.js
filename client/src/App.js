@@ -11,6 +11,7 @@ import Props from './R017_Props';
 import PropsDatatype from './R018_PropsDatatype';
 import PropsBoolean from './R019_PropsBoolean';
 import PropsObjVal from './R020_PropObjVal';
+import Map from "./R015_Map";
 
 
 //App.js와 같은 폴더 경로에 위치한 App.css 임포트하기 방법 
@@ -27,6 +28,7 @@ function App() {
       <Es6/>
       <SpreadOprator/>
       <Jquery/>
+      <Map />
       <Props props_val = "This is Props"/>
       <PropsDatatype
          String = "react"

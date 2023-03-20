@@ -24,8 +24,9 @@ class R015_Map extends Component {
             console.log((index + 3)+".obj :"+JSON.stringify(obj));
             //기존 배열에서 가져온 객체 값들을 순서대로 출력해준다. 
             var Obj = {}; //새로운 객체인 Obj를 선언해준다. 
-            Obj[obj.key] = obj.value;
+            Obj[obj.key] = obj.value; //기존 객체인 ObjArray의 key, value 값을  새로운 객체인 Obj에 key, value값으로 저장해준다. 
             return Obj;
+            //모든 반복이 끝나면 Map_objArr 안에 저장한다. 
         });
         console.log("5. Map_objArr : " + JSON.stringify(Map_ObjArr))
     }

@@ -10,6 +10,7 @@ import Jquery from './R016_Jquery';
 import Props from './R017_Props';
 import PropsDatatype from './R018_PropsDatatype';
 import PropsBoolean from './R019_PropsBoolean';
+import PropsObjVal from './R020_PropObjVal';
 
 
 //App.js와 같은 폴더 경로에 위치한 App.css 임포트하기 방법 
@@ -41,7 +42,10 @@ function App() {
       <PropsBoolean BooleanTrueFalse= {false}/>
       //Booleanprops 변수를 선언해주고 false값을 담아 props에 전달해준다. 
       <PropsBoolean BooleanTrueFalse/>
+      //이것도 위처럼 PropsTrueFalse 변수에 선언하지만 위처럼 할당은 해주지 않고 props에 담아 하위 컴포넌트에 전달한다. 
 
+      <PropsObjVal ObjectJson = {{react : "리액트", twohundred:"react"}}/>
+      //ObjectJson변수와 키(react, twohundred)를 선언하고 value를 할당한 뒤 (리액트, 200) props에 담아 하위 컴포넌트(R020_PropObjVal)로 전달함 
       
       
     </div>

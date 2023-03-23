@@ -13,7 +13,11 @@ import PropsBoolean from './R019_PropsBoolean';
 import PropsObjVal from './R020_PropObjVal';
 import Map from "./R015_Map";
 import ForEach from './R014_ForEach';
-
+import PropsRequired from './R021_PropsRequired';
+import PropsNode from './R023_PropsNode';
+import ReactState from './R024_ReactState';
+import SetState from './R025_SetState';
+import ForceUpdate from './R026_ForceUpdate';
 
 //App.js와 같은 폴더 경로에 위치한 App.css 임포트하기 방법 
 //만약 App.css가 App.js보다 한 단계 더 위의 상위 폴더에 위치한다면 ./../App.css를 해주어야 한다
@@ -50,6 +54,13 @@ function App() {
 
       <PropsObjVal ObjectJson = {{react : "리액트", twohundred:"react"}}/>
       //ObjectJson변수와 키(react, twohundred)를 선언하고 value를 할당한 뒤 (리액트, 200) props에 담아 하위 컴포넌트(R020_PropObjVal)로 전달함 
+      <PropsRequired ReactNumber = {200} />
+      <PropsNode>
+        <span>node from App.js</span>
+      </PropsNode>
+      <ReactState reactString = {"react"} />
+      <SetState />
+      <ForceUpdate />
       
       
     </div>
@@ -59,4 +70,4 @@ function App() {
 }
 
 export default App;
-//
+

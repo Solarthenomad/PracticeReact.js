@@ -18,6 +18,9 @@ import PropsNode from './R023_PropsNode';
 import ReactState from './R024_ReactState';
 import SetState from './R025_SetState';
 import ForceUpdate from './R026_ForceUpdate';
+import  PureComponent  from './R028_PureComponentClass';
+import ReactStrapAlerts from './R034_ReactstrapAlerts';
+import 'bootstrap/dist/css/bootstrap.css';
 
 //App.js와 같은 폴더 경로에 위치한 App.css 임포트하기 방법 
 //만약 App.css가 App.js보다 한 단계 더 위의 상위 폴더에 위치한다면 ./../App.css를 해주어야 한다
@@ -61,6 +64,8 @@ function App() {
       <ReactState reactString = {"react"} />
       <SetState />
       <ForceUpdate />
+      <PureComponent />
+      <ReactStrapAlerts/>
       
       
     </div>

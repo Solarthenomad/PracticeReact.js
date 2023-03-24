@@ -15,7 +15,8 @@ class R027_ComponentClass extends Component {
             this.setState({StateString : 'react'});
 
         }else {
-            
+            this.setState({StateArrayObj : ['react', ]})
+
         }
 
     }

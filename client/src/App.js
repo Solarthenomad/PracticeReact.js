@@ -20,6 +20,10 @@ import SetState from './R025_SetState';
 import ForceUpdate from './R026_ForceUpdate';
 import  PureComponent  from './R028_PureComponentClass';
 import ReactStrapAlerts from './R034_ReactstrapAlerts';
+import R035_ReactstrapBadges from './R035_ReactstrapBadges';
+import R036_ReactstrapBreadcrumbs from './R036_ReactstrapBreadrumbs';
+import R037_ReactstrapDropdown from './R037_ReactstrapDropdown';
+import R038_ReactstrapButtonGroup from './R038_ReactstrapButtonGroup';
 import 'bootstrap/dist/css/bootstrap.css';
 
 //App.js와 같은 폴더 경로에 위치한 App.css 임포트하기 방법 
@@ -66,7 +70,8 @@ function App() {
       <ForceUpdate />
       <PureComponent />
       <ReactStrapAlerts/>
-      
+      <R036_ReactstrapBreadcrumbs/>
+      <R037_ReactstrapDropdown/>
       
     </div>
     //App.js에서 임포트한 component인 R006_LifecycleEx로 prop_value라는 변수를 전달한다.

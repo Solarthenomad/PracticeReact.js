@@ -15,9 +15,12 @@ class R047_ReactstrapListGroup extends Component {
                     <ListGroupItem tag="a" href="http://example.com">
                         Link
                     </ListGroupItem>
-                    <ListGroupItem></ListGroupItem>
+                    <ListGroupItem tag="button" action onClick={e=>alert("button")}>Button</ListGroupItem>
                 </ListGroup>
             </>
         )
     }
 }
+
+export default R047_ReactstrapListGroup;
+

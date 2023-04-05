@@ -8,14 +8,19 @@ import {Button, Fade} from 'reactstrap';
 
 class R043_ReactstrapFade extends Component {
     
-    constructor() {
+    constructor(props) {
         super(props);
         this.state= {fadeInOut : true}
+        // <Fade>태그 영역의 표시 상태를 state로 선언하고(this.state.fadeInOut)  ,그 fadeInOut를 true라고 해준다. 
     }
 
     toggle = () =>{
         this.setState({fadeInOut : !this.state.fadeInOut})
     }
+    //toggle이 this를 통하여 button의 onClick 함수에 접근하게 됨(onClick에서 this.toggle로 호출하기 때문에) 
+    //setState() 함수를 호출하여 React 컴포넌트의 상태를 업데이트
+    // fadeInout 상태가 이전 값과 반대로 바뀌게 됨 : toggle함수를 호출하게 되면 
+    //toggle함수는 onClick이 호출함 
     
     render() {
         return (

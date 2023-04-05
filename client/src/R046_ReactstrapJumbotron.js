@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Jumbotron, Button} from 'reactstrap';
 
+//Jumbotron : 대형 전광판. 넓은 영역에서 눈에 띄게 정보를 표시한다. 
+
 class R046_ReactstrapJumbotron extends Component {
     render() {
         return (

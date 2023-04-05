@@ -27,6 +27,13 @@ import ReactstrapButtonGroup from './R038_ReactstrapButtonGroup';
 import ReactstrapCarousel from './R041_ReactstrapCarousel';
 import ReactstrapCollapse from './R042_ReactstrapCollapse';
 import ReactstrapFade from './R043_ReactstrapFade';
+import ReactstrapForm from './R044_ReactstrapForm';
+import InputGroup from './R045_ReactstrapInputGroup';
+import Jumbotron from './R046_ReactstrapJumbotron';
+import ListGroup from './R047_ReactstrapListGroup';
+import Modal from './R048_ReactstrapModal';
+import Navbar from './R049_ReactstrapNavbar';
+import Pagniation from './R050_ReactstrapPagination';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -80,6 +87,12 @@ function App() {
       <ReactstrapCarousel/>
       <ReactstrapCollapse />
       <ReactstrapFade />
+      <ReactstrapForm/>
+      <InputGroup />
+      <Jumbotron />
+      <Modal />
+      <Navbar/>
+      <Pagniation />
       
     </div>
     //App.js에서 임포트한 component인 R006_LifecycleEx로 prop_value라는 변수를 전달한다.

@@ -2,6 +2,8 @@ import React from "react";
 import { Component } from "react";
 import { useEffect, useState } from "react";
 import {Button, Fade} from 'reactstrap';
+//Fade : 특정 영역을 서서히 나타내고 숨김
+//버튼으로 이벤트를 주어 Fade를 제어함
 
 
 class R043_ReactstrapFade extends Component {

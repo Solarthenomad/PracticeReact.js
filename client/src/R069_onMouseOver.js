@@ -2,7 +2,8 @@ import React from "react";
 import { Component } from "react";
 
 class R069_onMouseOver extends Component {
-    MouseOver() {
+    MouseOver(tag) {
+        console.log("TAG :" + tag);
 
     }
 
@@ -13,7 +14,15 @@ class R069_onMouseOver extends Component {
                 <h3>DIV onMouseOver</h3>
 
                </div>
+               <input type="text" onMouseOver={e =>this.MouseOver("input")}/>
+               <select onMouseOver={e=>this.MouseOver("select")}>
+                <option value="react">react</option>
+                <option value="200">200</option>
+               </select>
+
             </>
         )
     }
 }
+
+export default R069_onMouseOver;

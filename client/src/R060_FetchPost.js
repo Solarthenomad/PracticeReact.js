@@ -3,7 +3,7 @@ import { Component } from "react";
 
 class R060_FetchPost extends Component {
     componentDidMount=async ()=>{
-        const response = awiait fetch('http://data.jsontest.com/', {
+        const response = await fetch('http://data.jsontest.com/', {
             method : 'POST',
             headers : {
                 'Content-Type' : 'application/json',

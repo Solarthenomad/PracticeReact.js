@@ -34,6 +34,15 @@ import ListGroup from './R047_ReactstrapListGroup';
 import Modal from './R048_ReactstrapModal';
 import Navbar from './R049_ReactstrapNavbar';
 import Pagniation from './R050_ReactstrapPagination';
+import AxiosGet from './R061_AxiosGet';
+import AxiosPost from './R062_AxiosPost';
+import CallbackFunc from './R063_CallbackFunc';
+import Promise from './R064_Promise';
+import ReactClick from './R066_onClick';
+import PromiseCatch from './R065_Promise';
+import onClick from './R066_onClick';
+import onChange from './R067_onChange';
+import onMouseMove from './R068_onMouseMove';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -93,6 +102,15 @@ function App() {
       <Modal />
       <Navbar/>
       <Pagniation />
+      <AxiosGet />
+      <AxiosPost/>
+      <CallbackFunc />
+      <Promise />
+      <PromiseCatch />
+      <ReactClick />
+      <onClick />
+      <onChange />
+      <onMouseMove />
       
     </div>
     //App.js에서 임포트한 component인 R006_LifecycleEx로 prop_value라는 변수를 전달한다.

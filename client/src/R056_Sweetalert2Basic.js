@@ -2,7 +2,6 @@ import React from "react";
 import { Component } from "react";
 import Swal from "sweetalert2";
 
-
 class R056_Sweetalert2Basic extends Component {
 
     componentDidMount() {
@@ -17,4 +16,6 @@ class R056_Sweetalert2Basic extends Component {
     }
 }
 
-export default R056_Sweetalert2Basic;
+export default R056_Sweetalert2Basic
+
+

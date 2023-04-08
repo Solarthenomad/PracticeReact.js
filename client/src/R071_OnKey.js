@@ -12,8 +12,8 @@ class R071_OnKey extends Component {
         return(
             <>
                 onKeyDown : <input type="text" onKeyDown={e => this.OnKey("onKeyDown", e)}/><br />
-                onKeyPress : <input type="text"/>
-                onKeyUp : <input />
+                onKeyPress : <input type="text" onKeyPress={e=>this.OnKey("onKeyPress", e)}/>
+                onKeyUp : <input type="text" onKeyUp={e=>this.OnKey("onKeyUp", e)} />
             </>
 
         )

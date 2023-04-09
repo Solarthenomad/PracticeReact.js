@@ -4,6 +4,7 @@
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.4",
     "reactstrap": "^9.1.6",
+    "redux": "^4.2.1",
     "sweetalert2": "^11.7.3"
   }
 }
